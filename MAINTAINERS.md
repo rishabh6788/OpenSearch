@@ -28,6 +28,7 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 | Shweta Thareja           | [shwetathareja](https://github.com/shwetathareja)       | Amazon      |
 | Sorabh Hamirwasia        | [sohami](https://github.com/sohami)                     | Amazon      |
 | Vacha Shah               | [VachaShah](https://github.com/VachaShah)               | Amazon      |
+| Rishabh Singh            | [rishabh6788](https://github.com/rishabh6788)           | Amazon      |
 
 ## Emeritus
 
