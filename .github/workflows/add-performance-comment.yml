@@ -6,7 +6,9 @@ on:
 
 jobs:
   add-comment:
-    permissions: write-all
+    permissions:
+      issues: write
+      pull-requests: write
     if: github.event.label.name == 'Performance'
     runs-on: ubuntu-latest
     steps:
