@@ -1,4 +1,4 @@
-name: Run performance benchmark on pull request
+name: Runs performance benchmark on pull request
 on:
   issue_comment:
     types: [created]
