@@ -1,10 +1,10 @@
-name: Run performance benchmark on pull request
+name: Runs performance benchmark on pull request
 on:
   issue_comment:
     types: [created]
 jobs:
   run-performance-benchmark-on-pull-request:
-    if: ${{ (github.event.issue.pull_request) && (contains(github.event.comment.body, '"run-benchmark-test"')) }}
+    if: ${{ (github.event.issue.pull_request) && (contains(github.event.comment.body, '"run-benchmark-test"')) && (length(github.event.comment.body) <= 31) }}
     runs-on: ubuntu-latest
     permissions:
       id-token: write
